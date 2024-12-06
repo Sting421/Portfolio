@@ -163,3 +163,37 @@
     gap: 2rem;
     justify-content: space-between
 }
+/* Mobile Responsive Styles */
+@media screen and (max-width: 768px) {
+    .projectcard_container {
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .projectcard {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .card_container {
+        width: 100%;
+    }
+
+    .slider {
+        width: 100%;
+    }
+
+    .slide {
+        width: 100%;
+        height: auto;
+    }
+
+    .sub-card {
+        width: 100%;
+    }
+
+    .text_span {
+        font-size: 0.9em;
+    }
+}

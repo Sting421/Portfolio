@@ -210,6 +210,59 @@ progress::-webkit-progress-value {
         gap: 2rem;
     }
 }
+/* Mobile Responsive Styles */
+@media screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+        padding: 20px;
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+
+    nav {
+        margin-top: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    nav a {
+        margin: 5px;
+    }
+
+    .card {
+        width: 90%;
+        height: auto;
+        margin: 10px auto;
+        padding: 15px;
+    }
+
+    #about {
+        padding: 20px;
+    }
+
+    .skills-section {
+        padding: 20px;
+        margin: 10px;
+    }
+
+    @media (max-width: 600px) {
+        .skills-container {
+            grid-template-columns: 1fr;
+            gap: 1rem;
+        }
+    }
+
+    #contact {
+        padding: 20px !important;
+    }
+
+    #contact div {
+        padding: 0 15px;
+    }
+}
 
   
 
